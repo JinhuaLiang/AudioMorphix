@@ -1,0 +1,40 @@
+task: 'move_and_resize'
+
+background_audio_filepath: '/path/to/dataset/add/source/72.wav'
+background_audio_caption: 'bell'
+foreground_audio_filepath: '/path/to/foreground_sound'
+foreground_audio_caption: 'prompt for foreground sound'
+output_audio_filepath: null
+
+# mask_bg[t_on:t_off, f_low:f_up]=1
+t_on: 0
+t_off: 500
+f_low: 0
+f_up: 64
+
+# mask_ref[t_on_ref:t_off_ref, f_low_ref:f_up_ref]=1
+t_on_ref: 500
+t_off_ref: 1000
+f_low_ref: 0
+f_up_ref: 64
+
+# mask_keep[t_on_keep:t_off_keep, f_low_keep:f_up_keep]=1
+t_on_keep: null
+t_off_keep: null
+f_low_keep: null
+f_up_keep: null
+
+dt: 200
+df: 0
+resize_scale_t: 1.0
+resize_scale_f: 1.0
+guidance_scale: 1.2
+energy_scale: 1.5
+w_edit: 40.0
+w_content: 20.0
+w_contrast: 0.1
+w_inpaint: 0.1
+sde_strength: 0.0
+num_ddim_steps: 50
+disable_tangent_proj: False
+disable_kv_cache: False

@@ -1,0 +1,17 @@
+# Folder
+__pycache__/
+bin/
+tmp/
+wandb/
+ckpts/
+outputs/
+trials/
+scripts/
+
+
+# File
+examples/*
+audio_morphix_ablate.py
+parse_log.py
+test-ldm.py
+test-tango.py

@@ -1,0 +1,26 @@
+task: 'generate'
+
+background_audio_filepath: '/path/to/dataset/add/source/72.wav'
+background_audio_caption: 'bell'
+foreground_audio_filepath: '/path/to/dataset/add/reference/72.wav'
+foreground_audio_caption: 'shout and laugh'
+output_audio_filepath: null
+
+# mask_bg[t_on:t_off, f_low:f_up]=1
+t_on: 0
+t_off: 1000
+f_low: 0
+f_up: 64
+
+dt: 0
+df: 0
+resize_scale_t: 1.0
+resize_scale_f: 1.0
+guidance_scale: 4.0
+energy_scale: 2.0
+w_edit: 4.0
+w_content: 10.0  # 5
+sde_strength: 0.4
+num_ddim_steps: 50
+disable_tangent_proj: False
+disable_kv_cache: False

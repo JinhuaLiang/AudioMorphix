@@ -1,0 +1,27 @@
+task: 'remove'
+
+background_audio_filepath: 'examples/tick_noise_with_laughter.wav'
+background_audio_caption: 'tick noise with laughter'
+foreground_audio_filepath: 'examples/tick_noise-noised.wav'
+foreground_audio_caption: 'tick noise'
+output_audio_filepath: null
+
+# mask_bg[t_on:t_off, f_low:f_up]=1
+t_on: 0
+t_off: 150
+f_low: 0
+f_up: 32
+
+dt: 0
+df: 0
+resize_scale_t: 1.0
+resize_scale_f: 1.0
+guidance_scale: 1.2
+energy_scale: 0.5
+w_edit: 15.0  # 4.0
+w_contrast: 2.25
+w_content: 5.0
+sde_strength: 0.4
+num_ddim_steps: 50
+disable_tangent_proj: False
+disable_kv_cache: False

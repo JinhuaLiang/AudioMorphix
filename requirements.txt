@@ -1,0 +1,18 @@
+numpy<2
+diffusers==0.18.2 #  20
+xformers==0.0.21  # optional
+transformers==4.30.1
+einops
+pytorch_lightning
+omegaconf
+spaces  # optional unless gradio is required
+gradio  # optional unless gradio is required
+huggingface-hub==0.25.1
+librosa
+opencv-python
+progressbar
+wandb
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2

@@ -1,0 +1,26 @@
+task: 'paste'
+
+background_audio_filepath: 'examples/Thunder and a gentle rain.wav'
+background_audio_caption: 'Thunder and a gentle rain'
+foreground_audio_filepath: 'examples/Food is frying, and a woman talks.wav'
+foreground_audio_caption: 'a woman talks'
+output_audio_filepath: null
+
+# mask_bg[t_on:t_off, f_low:f_up]=1
+t_on: 250
+t_off: 750
+f_low: 0
+f_up: 32
+
+dt: 0
+df: 0
+resize_scale_t: 1.0
+resize_scale_f: 1.0
+guidance_scale: 4.0
+energy_scale: 2.0
+w_edit: 4.0
+w_content: 10.0  # 5
+sde_strength: 0.4
+num_ddim_steps: 50
+disable_tangent_proj: False
+disable_kv_cache: False

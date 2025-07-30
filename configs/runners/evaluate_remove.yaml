@@ -1,0 +1,18 @@
+__subgroup__:
+  audio_processor: '../audio_processors/audio_processor_16k.yaml'
+  task: '../tasks/remove.yaml'
+
+tag: ""
+json_path: ""
+output_dir: 'trials'
+seed: 42
+disuse_full_text: False
+mini_data: False
+resume: False
+
+model: "declare-lab/tango2-full"  #  "cvssp/audioldm-l-full" | "declare-lab/tango"
+
+# WandB config
+wandb_name: "trial"
+wandb_group: null
+wandb_disable: False

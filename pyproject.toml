@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audiomorphix"
+version = "0.1.0"
+description = "Dependence for AudioMorphix"
+authors = [
+  { name = "Jinhua Liang", email = "liangjh0903@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "basicsr",
+    "torch == 2.0.1",
+    "torchaudio == 2.0.2"
+    "torchvision == 0.15.2",
+    "diffusers == 0.20.0",
+    "xformers == 0.0.21",
+    "transformers == 4.30.1",
+    "einops",
+    "pytorch_lightning",
+    "omegaconf",
+    "gradio",
+]

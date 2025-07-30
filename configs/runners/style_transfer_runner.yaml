@@ -1,0 +1,13 @@
+__subgroup__:
+  audio_processor: '../audio_processors/audio_processor_16k.yaml'
+  task: '../tasks/style_transfer.yaml'
+
+output_dir: 'trials'
+seed: 42
+
+model: "declare-lab/tango2-full"  #  "cvssp/audioldm-l-full" | "declare-lab/tango"
+
+# WandB config
+wandb_name: 'style_transfer'
+wandb_group: null
+wandb_disable: False

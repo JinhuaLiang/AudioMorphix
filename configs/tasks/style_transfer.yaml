@@ -1,0 +1,26 @@
+task: 'style_transfer'
+
+background_audio_filepath: 'examples/acoustic_guitar.wav'
+background_audio_caption: 'acoustic guitar'
+foreground_audio_filepath: "examples/acoustic_guitar.wav"  # placeholder
+foreground_audio_caption: 'classical piano'
+output_audio_filepath: null
+
+# mask_bg[t_on:t_off, f_low:f_up]=1
+t_on: 0
+t_off: 1024
+f_low: 0
+f_up: 64
+
+dt: 0
+df: 0
+resize_scale_t: 1.0
+resize_scale_f: 1.0
+guidance_scale: 2.5
+energy_scale: 1.0
+w_edit: 4.0
+w_content: 10.0
+sde_strength: 0.4
+num_ddim_steps: 50
+disable_tangent_proj: False
+disable_kv_cache: False
