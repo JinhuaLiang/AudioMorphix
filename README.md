@@ -1,12 +1,8 @@
 # 🔉 AudioMorphix: Training-free Audio Editing with Diffusion Models
 
-<div align="center">
-[![Demo](https://img.shields.io/badge/🌐%20Demo-AudioMorphix-green)](https://jinhualiang.github.io/AudioMorphix-Demo/)
-[![arXiv](https://img.shields.io/badge/arXiv-2505.16076-B31B1B.svg)](https://arxiv.org/abs/2505.16076)
-<!-- [![Paper](https://img.shields.io/badge/Paper-OpenReview-blue)](https://openreview.net/forum?id=a8dQutiF9E) -->
-[![HF Space](https://img.shields.io/badge/🤗%20HF%20Space-AudioMorphix-orange)](https://huggingface.co/spaces/JinhuaL1ANG/AudioMorphix)
+[![Demo](https://img.shields.io/badge/🌐%20Demo-AudioMorphix-green)](https://jinhualiang.github.io/AudioMorphix-Demo/)    [![arXiv](https://img.shields.io/badge/arXiv-2505.16076-B31B1B.svg)](https://arxiv.org/abs/2505.16076)    [![HF Space](https://img.shields.io/badge/🤗%20HF%20Space-AudioMorphix-orange)](https://huggingface.co/spaces/JinhuaL1ANG/AudioMorphix)
 
-*Training-free audio editing with diffusion probabilistic models*
+*This repo provide an editing framework for diverse tasks, such as sound addition, removal, time stretching, and pitch shifting.*
 
 </div>
 
@@ -224,11 +220,14 @@ AudioMorphix achieves high-fidelity audio editing across various tasks:
 If you use AudioMorphix in your research, please cite:
 
 ```bibtex
-@article{liang2024audiomorphix,
-  title={AudioMorphix: Training-free audio editing with diffusion probabilistic models},
-  author={Liang, Jinhua and others},
-  journal={arXiv preprint arXiv:2505.16076},
-  year={2024}
+@misc{liang2025audiomorphixtrainingfreeaudioediting,
+      title={AudioMorphix: Training-free audio editing with diffusion probabilistic models}, 
+      author={Jinhua Liang and Yuanzhe Chen and Yi Yuan and Dongya Jia and Xiaobin Zhuang and Zhuo Chen and Yuping Wang and Yuxuan Wang},
+      year={2025},
+      eprint={2505.16076},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2505.16076}, 
 }
 ```
 
