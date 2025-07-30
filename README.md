@@ -1,6 +1,6 @@
 # 🔉 AudioMorphix: Training-free Audio Editing with Diffusion Models
 
-[![Demo](https://img.shields.io/badge/🌐%20Demo-AudioMorphix-green)](https://jinhualiang.github.io/AudioMorphix-Demo/)    [![arXiv](https://img.shields.io/badge/arXiv-2505.16076-B31B1B.svg)](https://arxiv.org/abs/2505.16076)    [![HF Space](https://img.shields.io/badge/🤗%20HF%20Space-AudioMorphix-orange)](https://huggingface.co/spaces/JinhuaL1ANG/AudioMorphix)
+[![Demo](https://img.shields.io/badge/🌐%20Demo-AudioMorphix-green)](https://jinhualiang.github.io/AudioMorphix-Demo/)        [![arXiv](https://img.shields.io/badge/arXiv-2505.16076-B31B1B.svg)](https://arxiv.org/abs/2505.16076)        [![HF Space](https://img.shields.io/badge/🤗%20HF%20Space-AudioMorphix-orange)](https://huggingface.co/spaces/JinhuaL1ANG/AudioMorphix)
 
 *This repo provide an editing framework for diverse tasks, such as sound addition, removal, time stretching, and pitch shifting.*
 
