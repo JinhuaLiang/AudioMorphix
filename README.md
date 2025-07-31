@@ -152,7 +152,7 @@ AudioMorphix/
 │   ├── tasks/               # Task-specific configs
 │   └── runners/             # Runner configurations
 ├── examples/                 # Example audio files
-└── scripts/                 # Shell scripts
+└── experiments/                 # Experiment-related
 ```
 
 ## 🔧 Advanced Configuration
@@ -215,22 +215,6 @@ AudioMorphix achieves high-fidelity audio editing across various tasks:
 - **Processing Speed**: ~90 seconds per 10-second audio clip (GPU)
 - **Memory Usage**: ~18GB VRAM for typical edits
 
-## 📄 Citation
-
-If you use AudioMorphix in your research, please cite:
-
-```bibtex
-@misc{liang2025audiomorphixtrainingfreeaudioediting,
-      title={AudioMorphix: Training-free audio editing with diffusion probabilistic models}, 
-      author={Jinhua Liang and Yuanzhe Chen and Yi Yuan and Dongya Jia and Xiaobin Zhuang and Zhuo Chen and Yuping Wang and Yuxuan Wang},
-      year={2025},
-      eprint={2505.16076},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2505.16076}, 
-}
-```
-
 ## 🙏 Acknowledgments
 
 This project builds upon several excellent open-source projects:
@@ -251,9 +235,3 @@ This project is licensed under the NonCommercial License - see the [LICENSE](LIC
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📧 Contact
-
-For questions and feedback:
-
-- 📧 **Email**: liangjh0903@gmail.com
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/JinhuaLiang/AudioMorphix/discussions)
