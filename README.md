@@ -149,10 +149,10 @@ AudioMorphix/
 │   ├── demo/                 # Demo utilities
 │   └── utils/                # Utility functions
 ├── configs/                  # Configuration files
-│   ├── tasks/               # Task-specific configs
-│   └── runners/             # Runner configurations
+│   ├── tasks/                # Task-specific configs
+│   └── runners/              # Runner configurations
 ├── examples/                 # Example audio files
-└── experiments/                 # Experiment-related
+└── experiments/              # Experiment-related
 ```
 
 ## 🔧 Advanced Configuration
